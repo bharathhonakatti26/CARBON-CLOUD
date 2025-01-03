@@ -1,0 +1,28 @@
+.App{
+  display: flex;
+  justify-content: center;
+  height: -1319px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainnav {
+  position: sticky;
+  top: 0; 
+  left: 0; 
+  width: 100%;  
+  z-index: 1000; 
+  background-color: white; 
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main{
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}

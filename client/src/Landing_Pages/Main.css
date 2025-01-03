@@ -1,0 +1,369 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.top{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.top{
+    width: 1000px;
+    height: 465px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.toplink{
+    display: flex;
+    align-items: center;
+}
+
+.toplink:hover{
+    background-color: rgb(190, 207, 237);
+}
+
+.box{
+    display: flex;
+    width: 472px;
+    height: 50px;
+    background-color: rgb(232, 240, 254);
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+.highlight{
+    width:159px;
+    color: rgb(23, 78, 166); 
+    margin-left: 30px;
+}
+
+.arrow{
+    width: 32px;
+    height: 30px;
+    background-color:#006BFF;
+    border-radius: 23px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
+
+.arrowimg{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.arrowimg:hover{
+    color:black
+}
+
+.Header{
+    font-size: 60px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 55%, #2B86C5 100%);
+    width: 700px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 25px 0px 0px 0px ;
+}
+
+.Headerpara{
+    width: 570px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.subbutton:hover{
+    color: white;
+}
+
+.gofreetoday{ 
+    width: 150px;
+    height: 40px; 
+    background: linear-gradient(109.8deg, rgb(238, 9, 121) 42.8%, rgb(255, 106, 0) 83.3%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 3px;
+}
+
+.gofreetoday:hover{
+    background: linear-gradient(109.8deg, rgb(238, 9, 121) 42.8%, rgb(255, 106, 0) 83.3%);
+    color: white;
+    border-radius: 10px;
+}
+
+.sayhello{
+    width: 150px;
+    height: 40px; 
+    background: white;
+    border: 1px solid black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: linear-gradient(101.2deg, rgb(247, 0, 0) -21.9%, rgb(164, 50, 237) 92.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sayhello:hover{
+    background: linear-gradient(101.2deg, rgb(247, 0, 0) -21.9%, rgb(164, 50, 237) 92.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.secondpage{
+    width: 1200px;
+    display: flex;
+    gap: 80px;
+}
+
+.secondpageoneside{
+    margin-left: 80px;
+}
+
+.secondpageheader{
+    width: 650px;
+    height: 130px;
+    background: radial-gradient(859px at 7.5% 18%, rgb(234, 6, 185) 4.2%, rgb(251, 179, 8) 92.7%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.secondpagepara{
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.seeallpro{
+    width: 235px;
+    height: 40px; 
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: linear-gradient(101.2deg, rgb(247, 0, 0) -21.9%, rgb(164, 50, 237) 92.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.seeallpro:hover{
+    background: linear-gradient(101.2deg, rgb(247, 0, 0) -21.9%, rgb(164, 50, 237) 92.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 1px solid black;
+}
+
+.secondpageotherside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text{
+    font-size: 25px;
+    margin-left: 60px;
+    background: linear-gradient(to right, rgb(248, 87, 166), rgb(255, 88, 88));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.thirdpage{
+    width: 1200px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirdpageheader{
+    width: 900px;
+    text-align: center;
+    margin-top: 40px;
+    background: linear-gradient(109.8deg, rgb(238, 9, 121) 42.8%, rgb(255, 106, 0) 83.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.thirdpagepara{
+    width: 700px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divgetstartwithademo{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.getstartwithademo{
+    width: 300px;
+    height: 40px;
+    background: linear-gradient(78.1deg, rgb(177, 14, 236) 5.5%, rgb(255, 19, 15) 92.8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: white;
+    margin-top: 30px;
+}
+
+.getstartwithademo:hover{
+    background: linear-gradient(78.1deg, rgb(177, 14, 236) 5.5%, rgb(255, 19, 15) 92.8%);
+    color: white;
+    border-radius: 10px;
+}
+
+.forthpage{
+    width: 1200px;
+    height: 640px;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forthtopside{
+    width: 1115px;
+    height: 230px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.topforthpageheader{
+    font-size: 35px;
+    width: 550px;
+    margin-top: 23px;
+}
+
+.topothersidepara{
+    width: 520px;
+    height: 100px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.divconnectwithourteam{
+    width: 100%;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.connectwithourteam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    margin-left: 100px;
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+}
+
+.connectwithourteam:hover{
+    background: linear-gradient(101.9deg, rgb(253, 183, 220) 25%, rgb(240, 213, 190) 38.1%, rgb(249, 240, 206) 55.5%, rgb(253, 244, 210) 67.3%, rgb(222, 248, 226) 85.2%, rgb(200, 247, 242) 103.6%);
+    color: black;
+}
+
+.forthbottomside{
+    width: 1115px;
+    height: 350px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.bottombox{
+    width: 250px;
+    height:300px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottombox:hover{
+    background-color: white;
+    color: black;
+}
+
+.bottomboxheader , .bottomboxpara{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.extrabottomboxpara{
+    margin-top: 50px;
+}
+
+.fifthpage{
+    width: 1200px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifthpagecontent{
+    margin-top: 20px;
+    font-size: 25px;
+    width: 870px;
+    height: 146px;
+    text-align: center;
+    background: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fifthpageunderline{
+    width: 1100px;
+    height: 10px;
+    margin-top: 35px;
+    background: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+}

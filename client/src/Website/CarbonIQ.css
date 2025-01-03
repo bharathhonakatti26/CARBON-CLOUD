@@ -1,0 +1,196 @@
+/* Wrapper for the entire component */
+.bigwrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.carboniq-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Main container */
+.carboniq-container {
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #343541;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Header */
+.carboniq-container .header {
+    text-align: center;
+    background-color: #202123;
+    color: #8ab4f8;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    /* display: flex;
+    align-items: center; */
+}
+
+/* .carboniq-container .header .headback {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.carboniq-container .header .headcarbonIQ {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+} */
+
+
+/* Chat Section */
+.carboniq-container .chat-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Ensures the input area stays at the bottom */
+}
+
+/* Chat Window */
+.carboniq-container .chat-window {
+    flex: 1;
+    overflow-y: auto;
+    /* Makes the chat window scrollable */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #444654;
+    padding-bottom: 40px;
+    /* Ensure enough padding at the bottom to avoid input overlap */
+    height: 400px;
+    max-height: 450px;
+}
+
+/* Scrollbar Styling */
+.carboniq-container .chat-window::-webkit-scrollbar {
+    width: 6px;
+}
+
+.carboniq-container .chat-window::-webkit-scrollbar-thumb {
+    background-color: #565869;
+    border-radius: 5px;
+}
+
+/* Message Bubbles */
+.carboniq-container .message {
+    padding: 12px 15px;
+    border-radius: 8px;
+    max-width: 70%;
+    word-wrap: break-word;
+    line-height: 1.5;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.carboniq-container .message.user {
+    background-color: #3c82f6;
+    color: white;
+    align-self: flex-end;
+}
+
+.carboniq-container .message.CarbonIQ {
+    background-color: #4d4d52;
+    color: #d1d5db;
+    align-self: flex-start;
+}
+
+.carboniq-container .message.loading {
+    font-style: italic;
+    text-align: left;
+    background-color: transparent;
+}
+
+/* Typing Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Error Styling */
+.carboniq-container .error {
+    color: #f87171;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Input Area */
+.carboniq-container .input-area {
+    display: flex;
+    gap: 12px;
+    padding: 12px 20px;
+    background-color: #40414f;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.carboniq-container .input-area .input-field {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: 2px solid #565869;
+    background-color: #55576c;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.carboniq-container .input-area .input-field:focus {
+    border-color: #3c82f6;
+    box-shadow: 0 0 5px rgba(138, 180, 248, 0.6);
+}
+
+
+.carboniq-container .input-area .send-button {
+    padding: 12px 20px;
+    background-color: #3c82f6;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.carboniq-container .input-area .send-button:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+.carboniq-container .input-area .send-button:disabled {
+    background-color: #7a7f91;
+    cursor: not-allowed;
+    transform: none;
+}
+
+
+.carboniq-container .input-area .send-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(138, 180, 248, 0.6);
+}

@@ -1,0 +1,167 @@
+.fullsite{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 300px;
+}
+
+.mainwebsite{
+    width: 1200px;
+    height: 600px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.mainwebsite__link{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* .mainwebsite__title{
+    margin-left: 20px;
+} */
+
+.mainwebsitelinkborder{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.mainwebsitelinkborder:hover{
+    border-color: 3f73ea;
+    border-bottom: 2px solid #3f73ea;
+    color: black;
+}
+
+.dashboard{
+    width: 100px;
+    height: 30px;
+}
+
+.recommendations{
+    width: 180px;
+    height: 30px;
+}
+
+.compoboxes{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+
+.comboxmargin{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comboxmargin:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.firstcompbox{
+    width: 120px;
+    height: 40px;
+}
+
+.seccompbox{
+    width: 120px;
+    height: 40px;
+}
+
+.tricompbox{
+    width: 190px;
+    height: 40px;
+}
+
+.fourcompbox{
+    width: 110px;
+    height: 40px;
+}
+
+.midbox{
+    margin:30px 0px 0px 0px;
+}
+
+.midboxcontainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.midboxcontainertop{
+    display: flex;
+    gap: 70px;
+}
+
+.borderbox{
+    height: 100px;
+    width: 200px;
+    border: 1px solid white;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.borderbox:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.boximg{
+    height: 30px;
+    width: 30px;
+}
+
+.margin-top{
+    margin-top: 70px;
+}
+
+.viewallproducts{
+    margin-top: 40px;
+    width: 230px;
+    height: 40px;
+    border: 1px solid  white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.viewallproducts:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.viewallproductsicon{
+    width: 20px;
+    height: 20px;
+}
+
+.viewallproductstext{
+    display: flex;
+    margin-left: 14px;
+    gap: 10px;
+    color: black;
+}

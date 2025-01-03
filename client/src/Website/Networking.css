@@ -1,0 +1,167 @@
+.productpage{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.producttopside{
+    width: 1200px;
+    height: 200px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.productenginimg{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.productengintext{
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+}
+
+.buttonofproducts{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    gap: 40px ;
+}
+
+.buttonfixedstyle{
+    background-color: #3367d6;
+    color: white;
+    border: 2px solid #3367d6;
+    font-size: 15PX;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.colorblue{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.enable{
+    width: 100px;
+    height: 30px;
+}
+
+.trythisapi{
+    width: 140px;
+    height: 30px;
+}
+
+.productdownside{
+    margin-top: 50px;
+    width: 1200px;
+    height: 1500px;
+    background-color: #fafafa;   
+}
+
+.productdownsideone{
+    margin-left: 90px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.additionaldetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.gotolink{
+    width: 30px;
+    height: 30px;
+}
+
+.productdownsidetwo{
+    margin-left: 90px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.onecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.othercontainer{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.hoverlearnmore:hover{
+    color: blue;
+}
+
+.GoLinkExternal{
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+}
+
+.termsandcondi{
+    width: 550px;
+}
+
+.bigbigproductbox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.bigproductbox{
+    display: flex;
+    gap: 50px;
+}
+
+.smallcomp{
+    width: 310px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.smallcomp:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.smallcompimg{
+    margin-top: 10px;
+    width: 29px;
+    height:32px;
+}
+
+.smallcomphead{
+    margin-top: 10px;
+}
+
+.smallcompspan{
+    margin-top: 15px;
+    width: 250px;
+}

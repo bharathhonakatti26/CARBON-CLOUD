@@ -1,0 +1,182 @@
+/* Mainnavbar.css */
+
+.mainnavbar {
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mainnavbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mainnavbarimglog {
+    height: 60px;
+    width: 150px;
+}
+
+.newproject {
+    height: 30px;
+    width: 140px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.newproject:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.linknewproject {
+    color: black;
+}
+
+.linknewproject:hover {
+    color: black;
+}
+
+.IoMdMenu {
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.IoMdMenu:hover {
+    color: black;
+}
+
+.seachinput {
+    width: 350px;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.seachinput:focus {
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.centermainnavbar {
+    margin-left: 150px;
+    display: flex;
+}
+
+.searchicon {
+    width: 30px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.searchicon:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
+}
+
+.toprightsidenavbar {
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile {
+    cursor: pointer;
+}
+
+
+.righticons {
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: 56px;
+    right: 20px;
+    width: 331px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.profile-dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-details {
+    text-align: center;
+}
+
+.profile-details h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.profile-dropdown-content-manage-account-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.profile-dropdown-content-manage-account-btn:hover {
+    background-color: #0056b3;
+}
+
+.specialbuttons {
+    display: flex;
+    gap: 20px;
+}

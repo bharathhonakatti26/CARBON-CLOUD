@@ -1,0 +1,75 @@
+.nav{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position:fixed;
+    background-color:white;
+}
+
+.overview{
+    margin-left: 30px;
+}
+
+.logoimg{
+    width: 150px;
+}
+
+.signin , .contactus{
+    color: #006BFF;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-inline-start: 0px;
+    gap:20px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    background: linear-gradient(358.3deg, rgb(255, 82, 168) 12.9%, rgb(177, 118, 240) 134.3%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+.second{
+    margin-left: 300px;
+}
+
+.seperate{
+    display: flex;
+    margin-top: 65px;
+}
+.startfree{
+    height: 90px;
+}
+
+.bluebox{
+    background-color: #006BFF;
+    width: 85px;
+    height: 80px;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #006BFF;
+    border-radius: 2px;
+}
